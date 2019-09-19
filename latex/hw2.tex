@@ -1,0 +1,61 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{lipsum}  
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[style=numeric,natbib=true]{biblatex}
+
+\graphicspath{{./}}
+
+
+\author{Rohit Khattar}
+\title{Dummy Doc}
+\addbibresource{hw2.bib}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\section{Main Section} \label{section1}
+
+\lipsum[2-4]
+ 
+\subsection{Sub-Section 1}
+\textbf{Also see the image \ref{fig:logo}.}\newline
+\lipsum[15]
+
+\section{Supplementary Section}
+\textbf{In this section we will explore things different from section \ref{section1}.}\newline
+We will be referring to works from the main TextBook: \cites[page 3]{Labov1972}\newline
+\lipsum[1]
+ 
+\subsection{First Sub Section}
+
+\lipsum[2-4]
+
+\begin{figure}[!htb]
+\center{\includegraphics[width=\textwidth]
+{test-logo.jpg}}
+\label{fig:logo}
+\caption{\label{fig:my-label} Some cool logo}
+\end{figure}
+
+\subsection{Some Table data about acids}
+
+\begin{table}[H]
+\begin{tabular}{lllll}
+Id & Acid 1 \% & Acid 2 \% & Source & Region \\
+1  & 33.2      & 33        & A      & A      \\
+2  & 34.1      & 23        & A      & D      \\
+3  & 5.6       & 49        & B      & C     
+\end{tabular}
+\end{table}
+\printbibliography
+
+
+\end{document}
+
+
+% the .tex content file
+% the .bib citation file
+% the graphics file for your figure
+% the .pdf output file

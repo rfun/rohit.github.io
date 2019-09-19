@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.13
+[0] Config.pm:307> INFO - Logfile is 'hw2.blg'
+[39] biber-darwin:315> INFO - === Thu Sep 12, 2019, 15:48:07
+[62] Biber.pm:375> INFO - Reading 'hw2.bcf'
+[171] Biber.pm:905> INFO - Found 1 citekeys in bib section 0
+[188] Biber.pm:4196> INFO - Processing section 0
+[189] Utils.pm:75> INFO - Globbing data source 'hw2.bib'
+[189] Utils.pm:91> INFO - Globbed data source 'hw2.bib' to hw2.bib
+[198] Biber.pm:4373> INFO - Looking for bibtex format file 'hw2.bib' for section 0
+[206] bibtex.pm:1462> INFO - LaTeX decoding ...
+[211] bibtex.pm:1281> INFO - Found BibTeX data source 'hw2.bib'
+[216] Utils.pm:300> WARN - BibTeX subsystem: /var/folders/g4/_mgs61qs6wb4_1sn5h5t2c7m0000gq/T/DE7k0YYIQd/hw2.bib_10850.utf8, line 2, warning: 34 characters of junk seen at toplevel
+[226] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[226] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[226] Biber.pm:4024> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[226] Biber.pm:4030> INFO - No sort tailoring available for locale 'en-US'
+[229] bbl.pm:648> INFO - Writing 'hw2.bbl' with encoding 'UTF-8'
+[230] bbl.pm:751> INFO - Output to hw2.bbl
+[230] Biber.pm:110> INFO - WARNINGS: 1
